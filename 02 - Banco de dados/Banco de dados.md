@@ -22,7 +22,7 @@
 | **Atomicity**   | Transações são "tudo ou nada": não existe escrita parcial. Um update que falha no meio não corrompe o banco. |
 | **Consistency** | O banco sempre respeita suas regras e restrições (FKs, triggers etc.), sem exceções.                         |
 | **Isolation**   | Transações rodando em paralelo/concorrência não interferem umas nas outras.                                  |
-| **Durability**  | Depois que uma transação é confirmada (commit), os dados continuam persistidos mesmo se o sistema falhar.    
+| **Durability**  | Depois que uma transação é confirmada (commit), os dados continuam persistidos mesmo se o sistema falhar. |
 
 ### NoSQL
 - **Schema flexível**.
@@ -40,3 +40,5 @@
 
 ---
 Resumo: [[Resumo rápido sobre banco de dados]]
+Aprofundando: [[Como escolher um banco de dados]] · [[BASE - NoSQL]] · [[Teorema CAP]] · [[Partitioning - Sharding]]
+Índice: [[System Design]]
